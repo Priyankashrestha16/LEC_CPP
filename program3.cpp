@@ -16,14 +16,14 @@ class Room{
 };
   int main(){
     Room obj401;
-    cout<< "enter length of room:";
+    cout<< "Enter length of room:";
     cin>> obj401.length;
-    cout<< "enter breadth of room:";
+    cout<< "Enter breadth of room:";
     cin>> obj401.breadth;
-    cout << "enter height of room:";
+    cout << "Enter height of room:";
     cin>> obj401.height;
 
     cout<<"Area of room:"<< obj401.calculateArea()<<endl;
     cout<< "Volume of room:"<< obj401.calculateVolume();
-    
+    return 0;
   }
