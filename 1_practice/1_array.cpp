@@ -2,20 +2,21 @@
 using namespace std;
  int main()
  {
-   int  m[5],i, totalmarks=0;
-   cout<< " enter marks of 5 subjects:";
- 
-   for(i=0;i<5;i++)
+  string arr[]={ "OOP", "TOC","Maths","EDC","EM"};
+   int  mark[5];
+   int i, totalmarks=0;
+   
+    for(i=0;i<5;i++)
  {
+  cout<< " enter marks of"<<arr[i];
+   cin>> mark[i];
   
-  cin>> m[i];
-  
- }
- for(i=0;i<5;i++)
+}
+for(i=0;i<5;i++)
  {
- totalmarks = totalmarks + m[i];
- cout<< "Total marks:" << totalmarks;
-  
- }
+ totalmarks += mark[i];
+  }
+  cout<< "Total marks:" << totalmarks;
+
  return 0;
  }
