@@ -18,4 +18,5 @@ using namespace std;
     student s1(10),s2(20);
     Calculate_average(s1,s2);
   return 0;
+  
   }

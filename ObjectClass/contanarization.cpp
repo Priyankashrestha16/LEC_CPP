@@ -17,6 +17,7 @@ class A{
 class B{
     public:
     A a;
+    
     int B;
     
     void getdata(){

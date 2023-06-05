@@ -26,4 +26,5 @@ int main(){
      ram.info();
      cout<<"gita:"<<endl;
      gita.info();
+     
 }

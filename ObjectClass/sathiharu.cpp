@@ -22,14 +22,14 @@ class sathiharu {
  
 int main() {
     sathiharu firstfriend("ram","addd",23);
-    // firstfriend.name = "Krystal";
-    // firstfriend.age = 22;
-    // firstfriend.addresss = "Pilotbaba";
-     firstfriend.ghumeprogram();
+     firstfriend.name = "Krystal";
+     firstfriend.age = 22;
+    firstfriend.addresss = "Pilotbaba";
+    firstfriend.ghumeprogram();
  
-    // secondfriend.name = "Sushil";
-    // secondfriend.age = 20;
-    // secondfriend.addresss = "pilotbaba";
-    // secondfriend.ghumeprogram();
+    secondfriend.name = "Sushil";
+     secondfriend.age = 20;
+     secondfriend.addresss = "pilotbaba";
+    secondfriend.ghumeprogram();
  
 }
