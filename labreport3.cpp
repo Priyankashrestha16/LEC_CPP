@@ -22,7 +22,5 @@ int main(){
     c1.getdata();
     c2.getdata();
     c3.add(c1,c2);
-    
-    
     return 0;
 }

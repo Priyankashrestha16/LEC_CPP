@@ -16,6 +16,7 @@ class Book{
   void Book::showdata(){
   cout<<"TITLE:"<<Title<<endl;
   cout<<"PRICE:"<<price<<endl;
+  
    }
 int main(){
     Book b1;
