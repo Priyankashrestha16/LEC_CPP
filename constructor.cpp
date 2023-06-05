@@ -16,5 +16,6 @@ using namespace std;
 
  int main(){
     Account a1;
+    a1.display();
     return 0;
  }
