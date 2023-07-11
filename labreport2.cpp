@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void swap(int *x,int *y){
+void swap(int *x,int *y){      //address of &x is present in *x pointer
     int temp;
     temp=*x;
     *x=*y;
@@ -16,7 +16,7 @@ void swap(int *x,int *y){
     int x=getdata();
     int y=getdata();
     cout<<"value before swap:"<<x<<","<<y<<endl;
-    swap(&x,&y);
+    swap(&x,&y);           //parameters have address of x and y.
     cout<<"value after swap:"<<x<<","<<y<<endl;
     return 0;
     

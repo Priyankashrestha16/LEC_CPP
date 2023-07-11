@@ -7,7 +7,7 @@ using namespace std;
    int i, totalmarks=0;
    
     for(i=0;i<5;i++)
- {
+ { 
   cout<< " enter marks of"<<arr[i];
    cin>> mark[i];
   

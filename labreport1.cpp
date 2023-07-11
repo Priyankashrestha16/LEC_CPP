@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 void swap(float &x,float &y) {
-    int temp;
+    float temp;
      temp=y;
      y=x;
      x=temp;

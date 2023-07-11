@@ -13,15 +13,22 @@ class Book{
     }
     void showdata();
 };
+
+ void info()
+  {
+  cout<<"the book was good!!!"<<endl;
+  } 
+
   void Book::showdata(){
   cout<<"TITLE:"<<Title<<endl;
   cout<<"PRICE:"<<price<<endl;
-  
+
    }
 int main(){
     Book b1;
     b1.getdata();
     b1.showdata();
+    info();
     return 0;
 
 }

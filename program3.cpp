@@ -23,8 +23,8 @@ class Room{
     cout << "Enter height of room:";
     cin>> obj401.height;
 
-    cout<<"Area of room:"<< obj401.calculateArea()<<endl;
-    cout<< "Volume of room:"<< obj401.calculateVolume();
+    cout<<"Area of room:"<<obj401.calculateArea()<<endl;
+    cout<< "Volume of room:"<<obj401.calculateVolume();
     return 0;
     
   }

@@ -1,26 +1,36 @@
 #include<iostream>
 using namespace std;
-class complex{
-    public:
-    float real,img;
-    void getdata(){
-        cout<<"enter real part:";
-        cin>>real;
-        cout<<"enter imaginary part:";
-        cin>>real;
-         }
-     void showdata(){
-        cout<<"("<<real<<","<<img<<")";
-     }
-     void add(complex cc1,complex cc2){
-        real=cc1.real+cc2.real;
-        img=cc1.img+cc2.img;
-     }
-};
+namespace BCT{
+    char subject[20]="OOP";
+    int labroom=401;
+    void printsubject(){
+        cout<<"the subject is:"<<endl;
+    }
+    void printroom1(){
+         cout<<"the roomno is:"<<endl;
+    }
+    }
+namespace BEI{
+    char subject[20]="Applied mechanics";
+    int room =304;
+    void printsubject(){
+    cout<<"the subject is:"<<endl;
+    }
+
+    void printroom2(){
+    cout<<"the roomno is:"<<endl;
+    }
+}
 int main(){
-    complex c1,c2,c3;
-    c1.getdata();
-    c2.getdata();
-    c3.add(c1,c2);
+     
+     BCT::printsubject();
+     cout<<BCT::subject <<endl;
+     BCT :: printroom1();
+     cout<<BCT ::labroom<<endl;
+     
+      BEI::printsubject();
+     cout<<BEI::subject <<endl;
+     BEI :: printroom2();
+     cout<<BEI ::room<<endl;
     return 0;
 }
