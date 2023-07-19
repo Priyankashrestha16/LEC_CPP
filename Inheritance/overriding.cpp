@@ -5,7 +5,7 @@ class base
    public:
     int a=2;
 
-     virtual void print(){
+    void print(){
         cout<<"This is the function of base class"<<a<<endl;
     }
 };
@@ -17,12 +17,9 @@ class base
     }
  };
 int main()
-{
-    
-   
-    base *b1;
+{   
     child c1;
-    b1 = &c1;
-    b1->print();
+    c1.print();
+    c1.base ::print();        
    return 0;
 }
