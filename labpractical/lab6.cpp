@@ -26,7 +26,7 @@ void matrix :: display(){
             cout<<a[i][j]<<"\t";
         }
 }
-matrix  matrix :: operator -(matrix m){
+ matrix  matrix ::operator -(matrix m){
    matrix temp;
    for (int i=0;i<2;i++)
     for(int j=0;j<2;j++){
@@ -41,6 +41,7 @@ int main()
      m1.getmatrix();
      m2.getmatrix();
      m3=m2-m1;
+     cout<<"displaying matrix:"<<endl;
      m3.display();
 
    return 0;
