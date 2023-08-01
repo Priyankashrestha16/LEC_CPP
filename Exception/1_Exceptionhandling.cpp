@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
  int main(){
-    int x =1.5;
+    int x =-1.5;
     cout<<"Before try \n";
     try{
         cout<<"Inside try \n";
