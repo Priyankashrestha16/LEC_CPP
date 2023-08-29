@@ -3,7 +3,7 @@ using namespace std;
 class shape
 {
     public:
-    virtual void area()=0;
+ virtual  void area()=0;
 };
 class triangle : public shape{
     public:

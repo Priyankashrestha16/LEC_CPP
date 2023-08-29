@@ -2,7 +2,7 @@
 using namespace std;
 class Parent {
      public:
-      virtual void display(){
+    virtual  void display(){
         cout<<"this is parent class.";
 
     }
