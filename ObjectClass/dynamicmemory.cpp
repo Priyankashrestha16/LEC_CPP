@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int *roll=new int;
 char *name=new char[15];
 
@@ -17,7 +16,7 @@ void freememory(){
 }
 
 void printrollandname(){
-    cout<<endl<<"Name:"<<name;
+    cout<<endl<<"Name:"<<*name;
     cout<<endl<<"roll:"<<*roll;
 
 }
